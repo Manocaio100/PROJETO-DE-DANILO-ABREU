@@ -144,18 +144,18 @@ switch (opcao){
         break;
 }
 }
-void cadastro (COMP *p){
-
+void cadastro (){
+    ALUNO x;
     struct ALUNO;
 
          printf ("АА C A D A S T R A M E N T O АА\n\n");
          printf ("Nome: ");
          fflush(stdin);
-         gets (p->a.nomeAluno);
+         gets (x.nomeAluno);
          printf ("\nCPF: ");
-         scanf("%d",&p->a.cpf);
+         scanf("%d",&x.cpf);
          fflush(stdin);
          printf("\nDigite um numero para ser o cod: ");
-         scanf("%d",&p->a.codAluno);
+         scanf("%d",&x.codAluno);
          fflush(stdin);
 }
